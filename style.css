@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image:url(images/brown\ image.webp);
+  }
+  #navv{
+    color: #fff;
+  }
+  #nav{
+    color:brown;
+  }
+  .cont{
+    margin: 0;
+    padding:0;
+  }
+  #navbar{
+    background-color:rgb(109, 57, 19);
+  }
+  #k{
+    color:#fff;
+  }
+  #ke{
+    color:#fff;
+    
+  }
+  #i{
+    color:#fff;
+    
+  }
+  #p{
+    color:#fff;
+  }
+  #e{
+    color:#fff;
+  }
+  #t{
+    color:#fff;
+  }

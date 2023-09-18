@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Studio</title>
+  <link rel="icon" type="image/x-icon" href="images/cake studio logo og.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+<div class="main">
+<!-- nav bar-->
+<div class="container-fluid"class="cont" >
+  <div class="row">
+    <div class="w-100">
+      <nav id="navbar"class="navbar navbar-expand-lg fixed-topY>
+        <div class="container-fluid">
+          <a  id="navv" class="navbar-brand fw-bolder fs-2 "  href="#">Cake Studio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ms-5 fs-5 text-light" aria-current="page" href="#carouselExampleCaptions"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-light" href="#order-now"><b>Orders</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-5 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Deals</b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#cakes">Cake</a></li>
+                  <li><a class="dropdown-item" href="#">donhut</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#location">party orders</a></li>
+                </ul>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-light" href="#location" aria-disabled="true"><b>Location</b></a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success me-5 fs-5 btn-lg text-light " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>      
+    </div>
+  </div>
+</div>
+<!--carousel-->
+<div class="container-fluid" class="cont">
+  <div class="row">
+    <div class="container-fluid">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 ">
+            <img src="images/pic1.webp" class="img d-block w-100" alt="its an image">
+            <div class="carousel-caption d-none d-md-block">
+              <p>A smile with a frosting on it.</p>
+            </div>
+          </div>
+          <div class="carousel-item col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+            <img src="images/pic 2.webp" class="img d-block w-100" alt="its a picture">
+            <div class="carousel-caption d-none d-md-block">
+             
+              <p class="text-dark">We Make What We Love...</p>
+            </div>
+          </div>
+          <div class="carousel-item col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+            <img src="images/pic 22.webp" class="img d-block w-100" alt="its an image">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="fs-6">A ready-to-eat slice of heaven..</p>
+            </div>
+          </div>
+        </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
+</div>
+</div>
+<!--orders-->
+  <div class="container-fluid" class="cont">
+    <div class="row">
+      <div class="">
+       <div class="div bg-success-subtle" id="order-now"></div>
+        <div class="container-fluid" >
+        <h1 class="text-center text-light my-5">Discover Our Products</h1>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div  id="cakes" class="card text-center border-1 border-black ms-5 mb-4 " style="width: 18rem;">
+              <img src="images/white-forest-card.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>WHITE FOREST CAKE</b></p>
+                <h5 class="card-title text-danger">Rs:600</h5>
+                <button href="#" class="btn btn-success" onclick="btn()">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center border-1 border-black ms-5 mb-4" style="width: 18rem;">
+              <img src="images/card1 ,mango cake.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>budget cake,cakes,fruit cakes</b></h5>
+                <h5 class="card-title text-danger">Rs:600</h5>
+                <button href="#" class="btn btn-success" onclick="btn()">Order Now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center border-1 border-black ms-5 mb-4" style="width: 18rem;">
+              <img src="images/dollcake2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+                <p class="card-text"><b>DOLL DESIGN CAKE</b></p>
+                <h5 class="card-title text-danger">Rs: 1000</h5>
+                <button href="#" class="btn btn-success"onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center border-1 border-black ms-5 mb-4" style="width: 18rem;">
+              <img src="images/strowberry cake.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+                <p class="card-text"><b>STRAWBERRY CAKE</b></p>
+                <h5 class="card-title text-danger">Rs:800</h5>
+                <button href="#" class="btn btn-success"onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center border-1 border-black ms-5 mb-4" style="width: 18rem;">
+              <img src="images/dollcake-card2 .webp" class="card-img-top" alt="...">
+              <div class="card-body">
+        
+                <p class="card-text"><b>DOLL DESIGN CAKE 2</b></p>
+                <h5 class="card-title text-danger">Rs: 1000</h5>
+                <button href="#" class="btn btn-success"onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+            <div class="card text-center border-1 border-black ms-5 mb-4" style="width: 18rem;">
+              <img src="images/butter schoch.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+                <p class="card-text"><b>Butter Schoch</b></p>
+                <h5 class="card-title text-danger">Rs:750</h5>
+                <button href="#" class="btn btn-success"onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--location-->
+<div class="container-fluid" class="cont">
+<div class="row">   
+<div class=" light" id="location"></div>
+<div class="container-fluid bg-secondary " id="lctn" >
+  <div class="row">
+    <h1 class="text-center mb-5">Location</h1>
+    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <h1 class="text-white">Cake Studio</h1>
+<h4 id="k">Kochi</h4>
+<h4 id="ke">Kerala</h4>
+<h4 id="i">India</h4>
+<p id="p">phone: +919846860581</p>
+<p id="e">Email: farismohammed097@gmail.com</p>
+<p id="t">Tele:+919846860581</p>
+ </div>
+  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <iframe class="w-100 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31340.60100874918!2d76.10192979475588!3d10.919859150075238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7c997346cce1b%3A0xf6f918d5215d5313!2sVengad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1694964457948!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!--CDN link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--main div clossing here-->
+</div>
+<script src="scrfipt.js"></script>"
+</body>
+</html>
